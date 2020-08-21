@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Name({ children }) {
+export default function Plots({ children }) {
   return <div>{children}</div>;
 }
