@@ -115,8 +115,10 @@ code {
 
 }
 
-.x {
-  height: 2px;
-  background-color: #282c34;
-  /* border-bottom: #282c34; */
+.inputs {
+  display: 'flex';
+  flex-direction: row;
+  width: '100px';
+  align-Items: 'flex-start';
+  justify-content: 'space-between';
 }
