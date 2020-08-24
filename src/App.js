@@ -62,7 +62,8 @@ export default function App() {
             id='inputValueCalc'
             type='number'
             value={valueCalc}
-// /////
+            // /////
+            // teste 
 
             onChange={({ target }) => setValueCalc(Number(target.value))}
           />
