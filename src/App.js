@@ -102,12 +102,9 @@ export default function App() {
       <div>
         <Plots>
 
-          {plotsToShow.map((teste) => {
-            // {plotsToShow.map((id, month, accumValue, accumPerc, accumPlot) => {
-            //return <Plot key={`${id}_${month}`}> {accumPlot}</Plot>;
+          {plotsToShow.map((id, month, accumValue, accumPerc, accumPlot) => {
 
-            return <Plot key={`${teste.id}`}> {teste.month, teste.accumValue}</Plot>;
-            //  return <Plot key={`${id}_${month}_${accumValue}_${accumPerc}_${accumPlot}`}> {month}, {accumValue}, {accumPerc}, {accumPlot}</Plot>;
+            return <Plot key={`${id}_${month}_${accumValue}_${accumPerc}_${accumPlot}`}> {month}, {accumValue}, {accumPerc}, {accumPlot}</Plot>;
           })}
 
         </Plots>

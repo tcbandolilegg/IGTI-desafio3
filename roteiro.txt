@@ -13,7 +13,7 @@ Projeto Juros e depreciação:
 
 [x] Criar effect mostrar os valores dos imputs
 
-[ ] Criar componentes <Plots /> e <Plot> para mostrar dados na tela,
+[x ] Criar componentes <Plots /> e <Plot> para mostrar dados na tela,
    demonstrando a técnica de "component composition" com props.children
    e evitando o problema do "prop drilling".
 
