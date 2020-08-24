@@ -62,6 +62,8 @@ export default function App() {
             id='inputValueCalc'
             type='number'
             value={valueCalc}
+// /////
+
             onChange={({ target }) => setValueCalc(Number(target.value))}
           />
           <label htmlFor='inputValueCalc' className='active'>
